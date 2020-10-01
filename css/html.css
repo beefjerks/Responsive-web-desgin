@@ -1,0 +1,33 @@
+.htmlscaling{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.htmlscaling > div{
+    width: 10vw;
+    height: 10vw;
+    margin: 1vw;
+    background: #1D1;
+}
+
+.htmlscaling:last-of-type{
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
+
+.htmlscaling:last-of-type > div{
+    background: #D11;
+}
+
+@media screen and (max-width: 900px){
+    .htmlscaling{
+        display: block;
+    }
+    
+    .htmlscaling:first-of-type{
+        margin-bottom: -1vw;
+    }
+}

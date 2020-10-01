@@ -1,0 +1,36 @@
+#value{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 300vh;
+}
+
+#procent{
+    width: 100%;
+    max-width: 1201px;
+    position: absolute;
+    top: 33.333%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #F09;
+    text-align: center;
+}
+
+#vw{
+    width: 100vw;
+    background: #0cc;
+    position: absolute;
+    top: 66.666%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+#vh{
+    height: 100vh;
+    background: #F90;
+    display: flex;
+    align-items: center;
+    left: 70%;
+    position: absolute;
+}
+
